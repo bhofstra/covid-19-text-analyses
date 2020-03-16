@@ -1,9 +1,11 @@
+Latest update: 2020-03-16
+
 Code
 ----
 
-Code, will improve and annotate along the way (improve where needed!) to
-extract metadata and PDFs of arXiv and biorXiv papers with selected
-substrings related to Covid-19.
+Code to extract data. Will improve and annotate along the way (improve
+where needed!) to extract metadata and PDFs of arXiv and biorXiv papers
+with selected substrings related to Covid-19.
 
 Data
 ----
