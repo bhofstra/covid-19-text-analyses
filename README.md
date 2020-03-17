@@ -9,6 +9,12 @@ PDFs of arXiv and biorXiv papers is based on selected substrings related
 to Covid-19 (see code, e.g., ncov, covid-19, and so forth). Titles speak
 for itself for now.
 
+Text Analyses
+-------------
+
+Will try to perform some text analyses and generate word counts, topics,
+concept co-occurrences, and so forth. Work in progress.
+
 Data
 ----
 

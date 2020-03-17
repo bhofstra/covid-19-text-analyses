@@ -15,6 +15,9 @@ Latest update: 2020-03-16
 ## Code
 Code to extract metadata and PDFs on Covid-19 articles. Will improve and annotate along the way (improve where needed!). Extracted metadata and PDFs of arXiv and biorXiv papers is based on selected substrings related to Covid-19 (see code, e.g., ncov, covid-19, and so forth). Titles speak for itself for now.
 
+## Text Analyses
+Will try to perform some text analyses and generate word counts, topics, concept co-occurrences, and so forth. Work in progress.
+
 ## Data
 Metadata (e.g., abstracts, titles, authors, etc.) for Covid-19 related repository publications from biorXiv and arXiv.
 
