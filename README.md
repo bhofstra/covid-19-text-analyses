@@ -3,10 +3,11 @@ Latest update: 2020-03-16
 Code
 ----
 
-Code to extract data. Will improve and annotate along the way (improve
-where needed!) to extract metadata and PDFs of arXiv and biorXiv papers
-with selected substrings related to Covid-19. Titles speak for itself
-for now.
+Code to extract metadata and PDFs on Covid-19 articles. Will improve and
+annotate along the way (improve where needed!). Extracted metadata and
+PDFs of arXiv and biorXiv papers is based on selected substrings related
+to Covid-19 (see code, e.g., ncov, covid-19, and so forth). Titles speak
+for itself for now.
 
 Data
 ----
@@ -21,10 +22,10 @@ Zip file contains all extracted full text PDFs of the files mentioned in
 the metadata. Zips can be found here:
 
 -   [arXiv Covid-2019
-    PDFs](https://stanford.box.com/v/biorxiv-covid-19-20200316)
+    PDFs](https://stanford.box.com/v/arxiv-covid-19-20200316)
 
 -   [biorXic Covid-2019
-    PDFs](https://stanford.box.com/v/arxiv-covid-19-20200316)
+    PDFs](https://stanford.box.com/v/biorxiv-covid-19-20200316)
 
 Usage
 -----
