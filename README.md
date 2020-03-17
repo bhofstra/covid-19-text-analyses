@@ -9,11 +9,11 @@ fly!
 Code
 ----
 
-Code to extract metadata and PDFs on Covid-19 articles. Will improve and
-annotate along the way (improve where needed!). Extracted metadata of
-arXiv papers is based on selected substrings related to Covid-19 (see
-code, e.g., ncov, covid-19, and so forth). Titles speak for itself for
-now.
+**covid-19.R** contains the code to scrape the data and it will extract
+metadata and PDFs on Covid-19 articles from bio/med/aRxiv. Will improve
+and annotate along the way (improve where needed!). Extracted metadata
+of the arXiv papers is based on selected substrings related to Covid-19
+(see code, e.g., ncov, covid-19, and so forth).
 
 -   For arXiv used the “aRxiv” packages for R using a set of substring
     queries.
