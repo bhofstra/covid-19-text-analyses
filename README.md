@@ -3,7 +3,8 @@ Latest update: 2020-03-17
 Disclaimer
 ----------
 
-This is work in progress and I will try to update/improve on the fly/
+This is work in progress and I will try to update and improve on the
+fly!
 
 Code
 ----
@@ -14,12 +15,10 @@ arXiv papers is based on selected substrings related to Covid-19 (see
 code, e.g., ncov, covid-19, and so forth). Titles speak for itself for
 now.
 
--   For arXiv aI used the “aRxiv” packages for R using a set of
-    substring queries.
-
+-   For arXiv used the “aRxiv” packages for R using a set of substring
+    queries.
 -   For medRxiv (bio and med) I built a scraper that (thus far) grabs
     slightly less metadata than those mentioned above (see code).
-
 -   medRxiv conveniently curated and posted the Covid-19 collection on a
     dedicated URL together with bioRxiv papers. This leads to duplicates
     between the medRxiv (containing both bioRxic and medRxiv) and
@@ -63,13 +62,11 @@ the metadata. Zips can be found here:
 -   [arXiv Covid-2019
     PDFs](https://stanford.box.com/v/arxiv-covid-19-20200316). Match on
     rownumber or
-
 -   [medRxiv Covid-2019
     PDFs](https://stanford.box.com/v/medrxiv-covid-19-20200317).
     Contains bio and medRxiv pdfs (as marked in the names). You can
     match with metadata on pdf name and doi in metadata:
-    `trimws(sub('.*\\/', '', huh[i,3]))`
-
+    `trimws(sub('.*\\/', '', huh[, 3]))`
 -   [biorXiv Covid-2019
     PDFs](https://stanford.box.com/v/biorxiv-covid-19-20200316) (!Won’t
     continue this!)
