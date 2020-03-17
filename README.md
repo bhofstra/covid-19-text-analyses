@@ -34,4 +34,6 @@ Please use widely, but credit the data and coding collection effort by
 referencing to this Git. Use only for academic and educational purposes.
 The author hereby disclaims any and all representations, warranties, and
 responsibility with respect to these data and code. Copyright for the
-papers is with the respective authors.
+papers in the repositories is with the respective authors. Reliance on
+these data and code for medical advice or in commerce is strictly
+prohibited.
