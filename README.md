@@ -18,9 +18,13 @@ Zip
 ---
 
 Zip file contains all extracted full text PDFs of the files mentioned in
-the metadata. Zips can be found here: \* [arXiv Covid-2019
-PDFs](https://stanford.box.com/v/biorxiv-covid-19-20200316) \* [biorXic
-Covid-2019 PDFs](https://stanford.box.com/v/arxiv-covid-19-20200316)
+the metadata. Zips can be found here:
+
+-   [arXiv Covid-2019
+    PDFs](https://stanford.box.com/v/biorxiv-covid-19-20200316)
+
+-   [biorXic Covid-2019
+    PDFs](https://stanford.box.com/v/arxiv-covid-19-20200316)
 
 Usage
 -----
