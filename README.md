@@ -5,7 +5,8 @@ Code
 
 Code to extract data. Will improve and annotate along the way (improve
 where needed!) to extract metadata and PDFs of arXiv and biorXiv papers
-with selected substrings related to Covid-19.
+with selected substrings related to Covid-19. Titles speak for itself
+for now.
 
 Data
 ----
@@ -17,4 +18,14 @@ Zip
 ---
 
 Zip file contains all extracted full text PDFs of the files mentioned in
-the metadata.
+the metadata. Zips can be found here: - arXiv Covid-2019 PDFs: coming
+asap - biorXic Covid-2019 PDFs: coming asap
+
+Usage
+-----
+
+Please use widely, but credit the data and coding collection effort by
+referencing to this Git. Use only for academic and educational purposes.
+The author hereby disclaims any and all representations and warranties
+with respect to these data and code. Copyright for the papers is with
+the respective authors.
