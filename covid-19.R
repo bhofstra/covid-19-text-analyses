@@ -280,19 +280,21 @@ arxivcovid$date <- gsub("-", "", arxivcovid$date)
 huppa <- as.data.frame(append(huh$date, arxivcovid$date))
 
 tab <- data.frame(table(huppa[,1]))
-
+tab$Var1 <- as.numeric(as.character(tab$Var1))
 
 f1 <- ggplot(tab, aes(x=Var1, y = cumsum(Freq))) + 
   xlab("Date") + ylab("") + 
-  geom_line(group = 1) +
+  geom_line(group = 1, size = 0.25) +
   theme_bw() + 
   theme_minimal() +
-  theme(axis.text.x = element_text(angle = 45, size = 4),
-        axis.text.y = element_text(size = 6),
-        axis.title = element_text(size = 8)) + ggtitle("Research papers on Covid-19 over time (bio/med/arxiv")
-
-ggsave("f1.png", plot = f1, device = "png", path = "/Users/bashofstra/desktop",
-       scale = 1, width = 14, height = 7, units = c("cm"),
+  ggtitle("Research papers on Covid-19 over time (bio/med/arxiv)") +
+  theme(panel.grid.major = element_line(size = 0.1),
+        axis.text.x = element_text(angle = 45, size = 2.5),
+        axis.text.y = element_text(size = 4),
+        axis.title = element_text(size = 4),
+        plot.title = element_text(size = 8)) 
+ggsave("f1.png", plot = f1, device = "png", path = yourpath,
+       scale = 1, width = 10, height = 7, units = c("cm"),
        dpi = "retina")
 
 
