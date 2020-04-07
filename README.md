@@ -1,5 +1,7 @@
 Latest update: 2020-04-07
 
+![image](https://github.com/bhofstra/covid-19-text-analyses/blob/master/f1.png)
+
 Disclaimer
 ----------
 

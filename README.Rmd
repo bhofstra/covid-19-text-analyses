@@ -12,6 +12,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Latest update: 2020-04-07
 
+![image](https://github.com/bhofstra/covid-19-text-analyses/blob/master/f1.png)
+
 ## Disclaimer
 This is work in progress and I will try to update and improve on the fly!
 
