@@ -91,7 +91,7 @@ paper <- c(doc, vector)
 # get htmls
 doclist <- list()
 
-for (i in 1012:1264) {
+for (i in 1:1264) {
   
   Sys.sleep(runif(1, 1, 2))
   doclist[[i]] <- read_html(paper[i])
@@ -104,7 +104,7 @@ for (i in 1012:1264) {
 
 # find pdf urls in the xml files?
 pdfurl <- list()
-for (i in 704:1264) {
+for (i in 1:1264) {
  
   pdfurl[[i]] <- as.data.frame(as.character(html_attr(html_nodes(doclist[[i]], "a"), "href")))
   pdfurl[[i]] <- as.character(pdfurl[[i]][grepl("full.pdf", pdfurl[[i]][,1]), ])
@@ -130,7 +130,7 @@ for (i in 704:1264) {
 # metadate <- list() 
 # firstnames <- list()
 # lastnames <- list()
-for (i in 704:1264) {
+for (i in 1:1264) {
 
   metatitles[[i]] <- doclist[[i]] %>% # title
                          rvest::html_nodes('body') %>%
